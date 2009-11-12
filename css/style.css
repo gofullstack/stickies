@@ -1,0 +1,234 @@
+/*
+
+Title:      Stickies! Styles
+Author:     Daniel Marino
+Revised:		September 2009
+
+*/
+
+@font-face {
+	font-family: "Gotham Bold";
+	src: url(/fonts/Gotham-Bold.ttf);
+}
+
+/* Elements, Layout & Structure
+----------------------------------------------------------------------------------------------------*/
+
+a {
+	color: #487211;
+}
+
+article {
+	background: #fff;
+	height: 485px;
+	padding: 40px 40px 0;
+}
+
+body {
+	background: url(/images/background.png) repeat;
+	font-family: helvetica, arial, geneva, sans-serif;
+	font-size: 11px;
+	line-height: 17px;
+}
+
+footer {
+	color: #fff;
+	margin-top: 0;
+	text-align: center;
+}
+
+footer a {
+	color: #fff;
+}
+
+header {
+	height: 85px;
+}
+
+h1 {
+	display: block;
+	float: left;
+	height: 63px;
+	margin-top: 10px;
+	width: 151px;
+}
+
+h1 a {
+	background: transparent url(/images/stickies-logo.png);
+	display: block;
+	height: 63px;
+	outline: none;
+	overflow: hidden;
+	text-indent: -5000px;
+	width: 151px;
+}
+
+h2 {
+	font-family: "Gotham Bold";
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+
+form {
+	margin: 0 auto 5px;
+	width: 250px;
+}
+
+input {
+	font-family: helvetica, arial, geneva, sans-serif;
+	font-size: 20px;
+	padding: 3px 3px 0;
+	margin-bottom: 5px;
+	width: 240px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+label.error {
+  color: #dd0000;
+  display: block;
+  font-weight: normal;
+}
+
+nav {
+	float: right;
+	margin-top: 41px;
+}
+
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 15px;
+}
+
+nav a {
+	color: #fff;
+	display: block;
+	font-family: "Gotham Bold";
+	font-size: 16px;
+	outline: none;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #000;
+}
+
+nav a:hover {
+	color: #fffb91;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+
+/* IDs and Classes
+----------------------------------------------------------------------------------------------------*/
+
+#slider {
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+.b-signup {
+	background: transparent url(/images/b-signup.png);
+	display: block;
+	height: 38px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-indent: -5000px;
+	width: 121px;
+}
+
+.feature {
+	float: left;
+	margin-right: 20px;
+	padding: 5px 0 0 42px;
+	width: 128px;
+}
+
+.features {
+	margin-bottom: 20px;
+}
+
+.feature:nth-child(even) {
+	margin-right: 20px;
+}
+
+.easy-to-install      { background: transparent url(/images/i-easy-to-install.png) left top no-repeat; }
+.easy-to-use          { background: transparent url(/images/i-easy-to-use.png) 2px top no-repeat; }
+.its-free             { background: transparent url(/images/i-its-free.png) left top no-repeat; }
+.visual-collaboration { background: transparent url(/images/i-visual-collaboration.png) left top no-repeat; }
+
+.overlay {
+	background: transparent url(/images/background-overlay.png) center top no-repeat;
+	height: 422px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.scroll {
+  clear: left;
+  height: 545px;
+  overflow: auto;
+  position: relative; /* fix for IE to respect overflow */
+}
+
+.b-signup {
+	background: transparent url(/images/b-signup.png);
+	display: block;
+	height: 38px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-indent: -5000px;
+	width: 121px;
+	border: none;
+}
+
+.scroll-container .panel {
+  height: 475px;
+  width: 960px;
+}
+
+.shadow {
+	background: url(/images/content-shadow.png) center bottom no-repeat;
+	height: 11px;
+}
+
+.sub-head {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.note {
+	font-size: 90%;
+	color: #aaa;
+}
+
+.the-js {
+	background: #efefef;
+	border: 1px dashed #ccc;
+	display: block;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	word-wrap: break-word;
+}
+
+.step-1,
+.step-2 {
+	background: transparent url(/images/step-1.png) left top no-repeat;
+	padding-left: 42px;
+}
+
+.step-2 {
+	background: transparent url(/images/step-2.png) left top no-repeat;
+}

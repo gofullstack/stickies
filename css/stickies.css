@@ -1,0 +1,51 @@
+/*
+
+Title:      Sticky Note Styles
+Author:     Daniel Marino
+Revised:		September 2009
+
+*/
+
+.stickiesSticky {
+	background: transparent url(http://websticki.es/images/stickynote.png) no-repeat;
+	cursor: move;
+	height: 157px;
+	position: absolute;
+	width: 162px;
+}
+
+.stickiesSticky.dojoMoveItem {
+	opacity: 0.7;
+}
+
+.stickiesSticky textarea {
+	background: #fffcad;
+	border: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	height: 100px;
+	left: 20px;
+	outline: none;
+	position: absolute;
+	resize: none;
+	top: 30px;
+	width: 125px;
+}
+
+.stickiesSticky a {
+	color: #000;
+	position: absolute;
+	right: 18px;
+	text-decoration: none;
+	top: 5px;
+}
+
+.stickiesNew {
+	background: rgba(255, 255, 255, 0.8) url(http://websticki.es/images/add-sticky.png) 3px 3px no-repeat;
+	color: blue;
+	font-size: 12px;
+	padding: 3px 3px 3px 22px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}

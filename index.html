@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Stickies! &mdash; Sticky Notes for Your Website</title>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/960.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
+
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<header class="container_12 clearfix">
+  <div class="prefix_3 grid_6 suffix_3">
+
+    <h1><a href="/">Stickies!</a></h1>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#signup">Sign Up</a></li>
+        <!-- <li><a href="#login">Log In</a></li> -->
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<section id="slider">
+
+  <div class="scroll">
+    <div class="scroll-container">
+
+      <section id="home" class="container_12 clearfix panel">
+        <div class="prefix_3 grid_6 suffix_3">
+          <article>
+            <h2>Sticky Notes for Your Website</h2>
+            <p class="sub-head">Stickies! is designed to simplify client and team interaction on website projects in progress. Use Stickies! on your pre-launch website or staging environment.</p>
+            <div class="features clearfix">
+              <div class="feature visual-collaboration">
+                <h3>Visual Collaboration</h3>
+                <p>Stickies! enables visual collaboration between you and your team. Leave sticky notes on any page of your site, anywhere on the page.</p>
+              </div>
+              <div class="feature easy-to-use">
+                <h3>Easy to Use</h3>
+                <p>Click to create a new Stickies! note, drag it anywhere on the screen, and type your note. Visitors will see the note just where you left it.</p>
+              </div>
+              <div class="feature easy-to-install">
+                <h3>Easy to Install</h3>
+                <p>Sign up, copy and paste one line of JavaScript and upload one HTML file to your web server. That's it!</p>
+              </div>
+              <div class="feature its-free">
+                <h3>It&lsquo;s Free!</h3>
+                <p>Stickies! is 100% free! Use it on as many sites as you like. We hope you enjoy it!</p>
+              </div>
+            </div>
+            <p><a href="#signup" class="b-signup">Sign Up!</a></p>
+          </article>
+          <div class="shadow"></div>
+        </div>
+      </section> <!-- close #home -->
+
+      <section id="about" class="container_12 clearfix panel">
+        <div class="prefix_3 grid_6 suffix_3">
+          <article>
+            <h2>Who's Behind This?</h2>
+            <p class="sub-head">Stickies! was created by <a href="http://cramerdev.com">CramerDev</a>. We're a small team that is passionate about web design and development.</p>
+						<img src="/images/cramerdevlogo2.png" alt="Cramer Dev Logo" style="display: block; margin: 30px auto;" />
+						<p class="sub-head"><!--<img src="/images/cramerdevlogo.png" alt="Cramer Dev Logo" class="logo" />-->Once per quarter, our team comes together and attempts to complete a fun, one-day project from concept to completion. We created Stickies! during one of these get-togethers and we are releasing it to the world for use as a free web service. <a href="http://cramerdev.com/weblog/the-making-of-stickies">Read the full story</a> of the creation of Stickies! on our blog.</p>
+            <p><a href="#signup" class="b-signup">Sign Up!</a></p>
+          </article>
+          <div class="shadow"></div>
+        </div>
+      </section> <!-- close #about -->
+
+			<section id="signup" class="container_12 clearfix panel" style="display:none;">
+				<div class="prefix_3 grid_6 suffix_3">
+					<article>
+						<h2>Sign Up for Stickies!</h2>
+						<p class="sub-head">Once you complete the form below, we'll give you access to download the code to install Stickies! on your website.</p>
+						<form id="domain-form" action="/Domain/">
+							<p><label for="domain">Enter Your Domain Name:</label><input type="url" name="domain" id="domain" /></p>
+							<p><label for="email">Enter Your Email:</label><input type="email" name="email" id="email" /></p>
+							<p><label for="password">Choose a Password:</label><input type="password" name="password" id="password" /></p>
+							<p><button type="submit" class="b-signup">Sign Up</button></p>
+						</form>
+						<p class="note">
+							You have our word that we will never sell, distribute, or give away your personal information for any reason whatsoever!
+						</p>
+					</article>
+					<div class="shadow"></div>
+				</div>
+			</section> <!-- close #signup -->
+
+<!--      <section id="login" class="container_12 clearfix panel">
+        <div class="prefix_3 grid_6 suffix_3">
+          <article>
+            <h2>Log In to Manage Your Settings</h2>
+            <p>Coming Soon!</p>
+            </section>
+          </article>
+          <div class="shadow"></div>
+        </div>
+      </section>  close #login -->
+
+    </div>
+  </div>
+
+</section> <!-- close #slider -->
+
+<footer class="container_12 clearfix">
+  <p class="prefix_3 grid_6 suffix_3">&copy; 2009 <a href="http://cramerdev.com">Cramer Development</a>. All rights reserved.</p>
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/jquery.scrollTo.min.js"></script>
+<script src="/js/jquery.localscroll.min.js"></script>
+<script src="/js/jquery.serialScroll.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script src="/stickies.js"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-685637-18");
+pageTracker._trackPageview();
+} catch(err) {}</script></body>
+
+</html>

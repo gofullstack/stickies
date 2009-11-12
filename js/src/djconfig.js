@@ -1,0 +1,1 @@
+djConfig = { dojoBlankHtmlUrl: "/stickies.html" };
