@@ -132,6 +132,12 @@ p {
 /* IDs and Classes
 ----------------------------------------------------------------------------------------------------*/
 
+/* Prevents Scroll-bars on page load */
+#about,
+#signup {
+	display: none;
+}
+
 #slider {
 	margin: 0 auto;
 	position: relative;

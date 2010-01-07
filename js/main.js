@@ -51,6 +51,7 @@ var horizontal = true;
 
 // float the panels left
 $panels.css({
+  'display' : 'block',
   'float' : 'left',
   'position' : 'relative' // IE fix to ensure overflow is hidden
 });
